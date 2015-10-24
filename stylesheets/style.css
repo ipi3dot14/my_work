@@ -1,0 +1,110 @@
+body{
+  margin: 0;
+  padding: 0;
+  
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #5d5d5d;
+}
+
+.clearfix{
+  content: "";
+  display: block;
+  overflow: hidden;
+}
+
+.header-main{
+  margin-bottom: 25px;
+  clear: both;
+}
+
+.header-top-line {
+  padding: 7px 0;
+  margin-bottom: 30px;
+  width: 100%;
+  background: #000;
+}
+
+.container{
+  max-width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.logo{
+  float: left;
+}
+
+.navigation-main{
+  margin-top: 35px;
+}
+
+.navigation-main ul{
+  margin: 0;
+  padding: 0;
+  
+  list-style: none;
+}
+
+.navigation-main ul li{
+  padding-left: 60px;
+  display: inline-block;
+}
+
+.navigation-main ul li a{
+  
+  color: #fe9b00;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.navigation-main ul li a:hover{
+  color: #000;
+  text-decoration: underline;
+}
+
+.navigation-main {
+  float: right;
+}
+
+main {
+  display:block;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fe9b00+0,e35200+100 */
+background: #fe9b00; /* Old browsers */
+background: -moz-linear-gradient(left,  #fe9b00 0%, #e35200 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#fe9b00), color-stop(100%,#e35200)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #fe9b00 0%,#e35200 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #fe9b00 0%,#e35200 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #fe9b00 0%,#e35200 100%); /* IE10+ */
+background: linear-gradient(to right,  #fe9b00 0%,#e35200 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe9b00', endColorstr='#e35200',GradientType=1 ); /* IE6-9 */
+
+  overflow: hidden;
+}
+
+.block-content-left{
+  float: left;
+}
+
+.block-content-right{
+  float: right;
+}
+
+.book-cover{
+  padding: 0;
+  margin: 0;
+  padding-top: 3px;
+  padding-right: 3px
+}
+
+.block-content-left h1{
+  padding: 0;
+  margin: 0;
+  padding-top: 20px;
+  padding-left: 30px;
+  
+  color: #fff;
+  font-size: 85px;
+}
