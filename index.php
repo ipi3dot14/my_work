@@ -31,7 +31,7 @@
      
       <main role="main"><!--Begin-main-->
         <div class="block-content-left">
-          <h1>Рабыня<br>
+          <h1>Рабыняz<br>
           изаура <br>
           вернулась
           
